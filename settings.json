@@ -1,0 +1,27 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "svelte.enable-ts-plugin": true,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "editor.selectionClipboard": false,
+  "editor.tabSize": 2,
+  "svg.preview.mode": "svg",
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "remote.autoForwardPortsSource": "hybrid",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "files.simpleDialog.enable": true,
+  "python.analysis.autoImportCompletions": true,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ]
+}
