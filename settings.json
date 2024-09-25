@@ -13,5 +13,6 @@
     "**/.git": false
   },
   "files.simpleDialog.enable": true,
-  "python.analysis.autoImportCompletions": true
+  "python.analysis.autoImportCompletions": true,
+  "editor.autoClosingDelete": "never"
 }
