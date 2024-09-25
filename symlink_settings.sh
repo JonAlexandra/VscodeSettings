@@ -13,7 +13,7 @@ if [ ! -L "$SETTINGS_PATH" ]; then
 
     if [ -f "$SETTINGS_PATH" ]; then
         if [ -f "backup_path" ] ; then
-            echo "Both settings and backup already exists. Exiting"
+            echo "Both settings and backup files already exists. Exiting"
             exit 1
         fi
         echo "Settings file already exists, renaming it to $BACKUP_SETTINGS_PATH"
@@ -31,7 +31,7 @@ if [ ! -L "$KEYBINDINGS_PATH" ]; then
 
     if [ -f "$KEYBINDINGS_PATH" ]; then
         if [ -f "backup_path" ] ; then
-            echo "Both settings and backup already exists. Exiting"
+            echo "Both keybindings and backup files already exists. Exiting"
             exit 1
         fi
         echo "Settings file already exists, renaming it to $BACKUP_KEYBINDINGS_PATH"
