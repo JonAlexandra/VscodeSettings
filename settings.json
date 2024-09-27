@@ -15,5 +15,7 @@
   "files.simpleDialog.enable": true,
   "python.analysis.autoImportCompletions": true,
   "editor.autoClosingDelete": "never",
-  "githubPullRequests.pullBranch": "never"
+  "githubPullRequests.pullBranch": "never",
+  "editor.cursorSurroundingLines": 15,
+  "editor.cursorStyle": "block"
 }
