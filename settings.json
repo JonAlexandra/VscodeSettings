@@ -17,5 +17,10 @@
   "editor.autoClosingDelete": "never",
   "githubPullRequests.pullBranch": "never",
   "editor.cursorSurroundingLines": 15,
-  "editor.cursorStyle": "block"
+  "editor.cursorStyle": "block",
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  }
 }
