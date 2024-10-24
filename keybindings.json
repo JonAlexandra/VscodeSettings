@@ -130,5 +130,10 @@
     },
     "when": "editorTextFocus"
 },
+{
+  "key": "ctrl+alt+n",
+  "command": "explorer.newFile",
+  "when": "filesExplorerFocus"
+},
 
 ]
