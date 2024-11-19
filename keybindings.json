@@ -135,5 +135,9 @@
   "command": "explorer.newFile",
   "when": "filesExplorerFocus"
 },
+{
+  "key": "ctrl+alt+m",
+  "command": "explorer.newFolder"
+},
 
 ]
