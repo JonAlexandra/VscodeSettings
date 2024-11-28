@@ -23,5 +23,6 @@
       "source.organizeImports": "explicit"
     }
   },
-  "editor.acceptSuggestionOnCommitCharacter": false
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false
 }
