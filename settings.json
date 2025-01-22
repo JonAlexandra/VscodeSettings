@@ -3,7 +3,6 @@
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.defaultFormatter": "ms-python.black-formatter",
   "editor.selectionClipboard": false,
-  "editor.tabSize": 2,
   "svg.preview.mode": "svg",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -24,5 +23,6 @@
     }
   },
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "window.confirmBeforeClose": "keyboardOnly"
 }
