@@ -24,5 +24,10 @@
   },
   "editor.acceptSuggestionOnCommitCharacter": false,
   "explorer.compactFolders": false,
-  "window.confirmBeforeClose": "keyboardOnly"
+  "window.confirmBeforeClose": "keyboardOnly",
+  "svelte.enable-ts-plugin": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.lineNumbers": "relative"
 }
