@@ -139,5 +139,25 @@
   "key": "ctrl+alt+m",
   "command": "explorer.newFolder"
 },
+{
+  "key": "ctrl+shift+o",
+  "command": "references-view.findReferences",
+  "when": "editorHasReferenceProvider"
+},
+{
+  "key": "shift+alt+f12",
+  "command": "-references-view.findReferences",
+  "when": "editorHasReferenceProvider"
+},
+{
+  "key": "f4",
+  "command": "references-view.next",
+  "when": "reference-list.hasResult && references-view.canNavigate"
+},
+{
+  "key": "f4",
+  "command": "-references-view.next",
+  "when": "reference-list.hasResult && references-view.canNavigate"
+},
 
 ]
