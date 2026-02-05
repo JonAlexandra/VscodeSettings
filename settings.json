@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Default Dark Modern",
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.defaultFormatter": "ms-python.black-formatter",
   "editor.selectionClipboard": false,
@@ -47,7 +46,6 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "python.analysis.typeCheckingMode": "standard",
-  "chat.disableAIFeatures": true,
   "editor.minimap.enabled": false,
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
@@ -62,5 +60,15 @@
     "*.db3": "${capture}.${extname}-*",
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
+  },
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "remote.SSH.defaultForwardedPorts": [],
+  "remote.SSH.useExecServer": false,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-p>": false,
+    "<C-w>": false,
   }
 }
