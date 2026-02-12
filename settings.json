@@ -78,5 +78,6 @@
     "scminput": false
   },
   "terminal.integrated.initialHint": false,
-  "githubPullRequests.codingAgent.codeLens": false
+  "githubPullRequests.codingAgent.codeLens": false,
+  "chat.disableAIFeatures": true,
 }
