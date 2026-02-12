@@ -70,5 +70,13 @@
     "<C-z>": false,
     "<C-p>": false,
     "<C-w>": false,
-  }
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "terminal.integrated.initialHint": false,
+  "githubPullRequests.codingAgent.codeLens": false
 }
