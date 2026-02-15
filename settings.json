@@ -80,4 +80,6 @@
   "terminal.integrated.initialHint": false,
   "githubPullRequests.codingAgent.codeLens": false,
   "chat.disableAIFeatures": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.editor.empty.hint": "hidden"
 }
