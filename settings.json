@@ -84,5 +84,26 @@
   "chat.disableAIFeatures": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.editor.empty.hint": "hidden",
-  "terminal.integrated.stickyScroll.enabled": false
+  "terminal.integrated.stickyScroll.enabled": false,
+  "workbench.colorTheme": "Dark Modern",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "git.decorations.enabled": false,
+  "git.enableSmartCommit": false,
+  "git.postCommitCommand": "none",
+  "git.showPushSuccessNotification": false,
+  "git.suggestSmartCommit": false,
+  "scm.diffDecorations": "none",
+  "workbench.editor.useModal": "off",
+  "workbench.settings.editor": "json",
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml"
+  ],
 }
