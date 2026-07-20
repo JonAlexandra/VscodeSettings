@@ -106,4 +106,6 @@
     "**/.forgejo/workflows/*.yml",
     "**/.forgejo/workflows/*.yaml"
   ],
+  "ols.trace.server": "verbose",
+  "ols.server.path": "~/Documents/private/repos/ols/ols",
 }
